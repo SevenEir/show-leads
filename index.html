@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title> Teste </title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="main-menu">
+        <img src="/" alt="logo-venda_criativa" class="logo-empresa">
+        <a href="/">Inicio?</a>
+        <a href="#">Sobre nós</a>
+      </nav>
+
+      <div class="main-content">
+        <div class="download-form">
+          <p class="explanation-text">.....</p>
+          <form method="POST" action="URL do seu time">
+            <input
+              name="name"
+              type="text"
+              pattern="^\D{2,}\s[\D\s]{2,}$"
+              title="Digite seu nome completo"
+              required
+            />
+            <label for="name">Nome completo</label>
+            <input
+              name="email"
+              type="email"
+              required
+            />
+            <label for="email">Email</label>
+            <input name="redirectTo" type="hidden" value="https://gama.academy" />
+            <input name="debugMode" type="hidden" value="true" />
+            <button type="submit" class="button-form">Enviar</button>
+          </form>
+        </div>
+        <div class="explanation-image">
+          <img src="/" alt="imagem-bonitinha">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

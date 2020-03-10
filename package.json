@@ -1,0 +1,8 @@
+{
+  "name": "show-leads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SevenEir/show-leads.git",
+  "author": "felipe.eires <felipe.eires@cheftime.com.br>",
+  "license": "MIT"
+}

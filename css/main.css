@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Roboto sans-serif";
+  background-color: #F5F7F7;
+}
+
+.main {}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu .logo {
+  margin: 0;
+  text-align: left;
+  letter-spacing: 0;
+  color: #0C757D;
+  opacity: 1;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main-content {
+  display: flex;
+}
+
+.explanation-image {
+  height: 100%;
+  background: transparent linear-gradient(105deg, #F5F7F7 0%, #6BCBD2 100%) 0% 0% no-repeat padding-box;
+}

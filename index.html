@@ -1,10 +1,12 @@
 <html>
   <head>
     <link rel="stylesheet" href="./css/main.css">
-    <title> Teste </title>
+    <title> Venda Criativa </title>
   </head>
+
   <body>
     <div class="main">
+
       <nav class="main-menu">
         <p class="logo">Venda Criativa</p>
         <div class="menu-links">
@@ -14,34 +16,28 @@
       </nav>
 
       <div class="main-content">
-        <div class="download-form">
-          <p class="explanation-text">
-            Confira super dicas no ebook "Seis Estratégias Para Melhorar a Entrega dos Seus Produtos".
-            Não perca tempo, baixe grátis agora mesmo!!!
-          </p>
-          <form method="POST" action="https://smtl.gama.academy/leads/4a6b6150-5ffc-11ea-92b8-cb0262e26cca">
-            <input
-              name="name"
-              type="text"
-              pattern="^\D{2,}\s[\D\s]{2,}$"
-              title="Digite seu nome completo"
-              required
-            />
-            <label for="name">Nome completo</label>
-            <input
-              name="email"
-              type="email"
-              required
-            />
-            <label for="email">Email</label>
-            <input name="redirectTo" type="hidden" value="https://vendacriativa.netlify.com/" />
-            <input name="debugMode" type="hidden" value="true" />
-            <button type="submit" class="button-form">Enviar</button>
-          </form>
+        <div id="corpo-form">
+          <section class="secao-inicio saudacao">
+           <!--<p class="saudacao"><span class="saudacao-inicio">Olá,</span> somos a <strong>Venda Criativa</strong> <span class="saudacao-ultima-linha">um portal onde você aprenderá as <em>melhores práticas para montar sua Loja Virtual</em></span></p>-->
+            <p>Confira super dicas do ebook<br><strong>Seis Estratégias Para Melhorar a Entrega dos Seus Produtos".</strong><br>
+                Não perca tempo, baixe grátis agora mesmo!</p>
+          </section>
+
+
+            <h1>Receba o E-book gratuito</h1>
+            <form method="POST" class="form" action="https://smtl.gama.academy/leads/4a6b6150-5ffc-11ea-92b8-cb0262e26cca">
+              <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Nome Completo" required/>
+              <input name="email" type="email" placeholder="Email da empresa" required />
+              <small id="emailhelp"><strong>Nunca vamos compartilhar seu email, com ninguém.</strong></small>
+              <input name="redirectTo" type="hidden" value="https://vendacriativa.netlify.com/" />
+              <input name="debugMode" type="hidden" value="true" />
+              <input type="submit" value="Receba agora">
+            </form>
+
         </div>
-        <div class="explanation-image">
+       <!-- <div class="explanation-image">
           <img src="/" alt="imagem-bonitinha">
-        </div>
+        </div>-->
       </div>
     </div>
   </body>

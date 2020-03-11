@@ -1,6 +1,15 @@
 #layerTop {
   position: absolute;
+  top: 0;
+  left: 0;
+}
 
+#layerBaixo {
+  position: absolute;
+  margin-top: 50%;
+  display: flex;
+  top: 0;
+  left: 0;
 }
 
 #slogan {
@@ -37,13 +46,33 @@
   background: transparent url('img/Delivery.2.png') 0% 0% no-repeat padding-box;
 }
 
+#imgBaixo{
+  position: relative;
+  float: left;
+  width: 40%;
+  height: 60%;
+  margin-top: 3%;
+  background: transparent url('img/Delivery.2.png') 0% 0% no-repeat padding-box;
+  margin-left: 5%;
+}
+
+#sobre {
+  position: relative;
+  float: right;
+  width: 50%;
+  height: 60%;
+  margin-top: 6%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   display: block;
   margin: 0%;
   text-align: left;
   letter-spacing: 0;
   opacity: 1;
-  background: rgb(179, 221, 245);  
+  background: rgba(179, 221, 245, 0.527);
+  margin-bottom: 0%;
 }
 
 .saudacao p {

@@ -1,3 +1,15 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.princiapal {
+  position: relative;
+  margin: 0 auto;
+  height: 50%;
+
+}
+
 #layerTop {
   position: absolute;
   top: 0;
@@ -103,7 +115,7 @@ body {
 input {
   height: 40px;
   width: 390px;
-  margin: 5px;
+  margin: 0.5%;
   border-radius: 30px;
   border:1px solid rgb(112, 179, 179);
   font-size: 14pt;
@@ -120,11 +132,11 @@ div#corpo-form {
   margin: 50px auto 50px auto;
   text-align: center;
   margin-left: 2%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .form {
-  margin-top: -8%;
+  margin-top: 0.3%;
 }
 
 small {

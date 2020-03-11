@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: transparent linear-gradient(105deg, #F5F7F7 50%, #6BCBD2 100%) 0% 0% no-repeat padding-box;
+}
+
+.congratulations-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.congratulations-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.congratulations-text {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #F16E17;
+  margin: 0;
+  }
+
+.short-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #090909;
+  width: 50%;
+}
+
+.congratulations-media {
+  position: fixed;
+  left: 0px;
+  bottom: 100px;
+}
+
+.congratulations-image {
+  width: 480px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 0;
+  color: #0C757D;
+  margin-right: 15px;
+}
+
+.fa {
+  color: #FFFFFF;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E5055;
+  border: transparent;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}

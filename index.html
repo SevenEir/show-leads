@@ -2,36 +2,60 @@
   <head>
     <link rel="stylesheet" href="./css/main.css">
     <title> Venda Criativa </title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160262087-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160262087-1');
+    </script>
+
+    <!-- Hotjar Tracking Code for https://www.vendacriativa.com.br/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1724626,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
   </head>
 
   <body>
+    <header>
+      <img id="layerTop" src="./img/curvaSuperior.png">
+      <img id="slogan" src="./img/logo.png">
+    </header>
     <div class="main">
-
       <nav class="main-menu">
-        <p class="logo">Venda Criativa</p>
-        <div class="menu-links">
+        <!--<div class="menu-links">
           <a href="/">Inicio?</a>
-          <a href="#">Sobre nós</a>
-        </div>
+          <a href="#">Sobre nós</a>          
+        </div>-->
+        <img id="imgEntrega" src="./img/Entrega.PNG.png">
       </nav>
 
       <div class="main-content">
         <div id="corpo-form">
           <section class="secao-inicio saudacao">
-           <!--<p class="saudacao"><span class="saudacao-inicio">Olá,</span> somos a <strong>Venda Criativa</strong> <span class="saudacao-ultima-linha">um portal onde você aprenderá as <em>melhores práticas para montar sua Loja Virtual</em></span></p>-->
-            <p>Confira super dicas do ebook<br><strong>Seis Estratégias Para Melhorar a Entrega dos Seus Produtos".</strong><br>
-                Não perca tempo, baixe grátis agora mesmo!</p>
+            <p><strong> Seis estratégias para melhorar a <br>entrega dos seus produtos.</strong></p>
+            <p class="receba">Receba super dicas de logística com nosso ebook,
+              Não perca tempo, baixe grátis agora mesmo!!!</p>
           </section>
 
-
-            <h1>Receba o E-book gratuito</h1>
             <form method="POST" class="form" action="https://smtl.gama.academy/leads/4a6b6150-5ffc-11ea-92b8-cb0262e26cca">
               <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Nome Completo" required/>
               <input name="email" type="email" placeholder="Email da empresa" required />
-              <small id="emailhelp"><strong>Nunca vamos compartilhar seu email, com ninguém.</strong></small>
-              <input name="redirectTo" type="hidden" value="https://vendacriativa.netlify.com/" />
+              <small id="emailhelp"><strong>Nunca enviaremos spam para o seu email.</strong></small>
+              <input name="redirectTo" type="hidden" value="#" />
               <input name="debugMode" type="hidden" value="true" />
-              <input type="submit" value="Receba agora">
+              <input type="submit" value="RECEBA AGORA!">
             </form>
 
         </div>

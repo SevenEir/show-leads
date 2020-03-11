@@ -1,17 +1,41 @@
+#layerTop {
+  position: absolute;
+
+}
+
+#slogan {
+  position: relative;
+  width: 18%;
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+
 .main-menu {
   display: flex;
   justify-content: space-between;
 }
 
-.main-menu .logo {
-  margin: 0;
-  text-align: left;
-  letter-spacing: 0;
-  color: #0C757D;
-  opacity: 1;
-  font-size: 40px;
-  font-weight: 600;
-} 
+.main-content {
+  float: left;
+  position: relative;
+  margin-top: -34%;
+}
+
+.receba {
+  margin-top: -10%;
+}
+
+#imgEntrega {
+  position: relative;
+  float: right;
+  width: 35%;
+  height: 35%;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 3%;
+
+  background: transparent url('img/Delivery.2.png') 0% 0% no-repeat padding-box;
+}
 
 body {
   display: block;
@@ -19,23 +43,25 @@ body {
   text-align: left;
   letter-spacing: 0;
   opacity: 1;
-  background: transparent linear-gradient(105deg, #F5F7F7 50%, #6BCBD2 100%) 0% 0% no-repeat padding-box;
-  
+  background: rgb(179, 221, 245);  
 }
 
 .saudacao p {
-  font-size: 1.5em;
-  color: #99A;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
   line-height: 1;
   padding: 2em;
 }
 .saudacao-inicio {
   font-size: 3em;
-  color: rgb(73, 73, 87);
+  color: rgb(0, 0, 0);
+
 }
 .saudacao strong {
-  font-size: 30px;
-  color: #106b67;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
   position: relative;
 }
 
@@ -46,30 +72,30 @@ body {
 }
 
 input {
-  display: block;
   height: 40px;
   width: 390px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 30px;
   border:1px solid rgb(112, 179, 179);
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.01);
-  color: black;
+  color: #ffffff;
   outline: none;
+  background: rgba(0, 0, 0, 0.23) 0% 0% no-repeat padding-box;
 }
 
 div#corpo-form {
-  /*background-color: rgb(134, 211, 173);*/
-  width: 30%;
+  /*background-color: rgb(211, 134, 151);*/
+  width: 60%;
   margin: 50px auto 50px auto;
   text-align: center;
-  margin-left: 10%;
-  margin-bottom: -5%;
+  margin-left: 2%;
+  margin-top: 10%;
 }
 
-div#corpo-form h1{
-
+.form {
+  margin-top: -8%;
 }
 
 small {
@@ -77,16 +103,15 @@ small {
   font-size: 16px;
   display: block;
   margin-top: auto;
-  
+  margin-left: -2em;
 }
 
 input[type=submit] {
   cursor: pointer;  
-  background-color: rgb(255, 255, 255);
-  border-color: #106b67;
+  background-color: #106b67;
   margin-top: 5%;
-  padding: 5px 5px;
-  
-
+  padding: 0.2em 0.6em;
+  width: 40%;
+  /*margin: 10% 0 0 25%;*/
 
 }

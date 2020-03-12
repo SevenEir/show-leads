@@ -132,7 +132,7 @@ input[type=submit] {
   justify-content: flex-end;
   z-index: 800;
   margin-top: 20px;
-  margin-left: -10px;
+  margin-left: -30px;
 }
 
 .image-form {

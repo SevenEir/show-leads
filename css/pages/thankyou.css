@@ -37,9 +37,6 @@ body {
 }
 
 .congratulations-media {
-  position: fixed;
-  left: 0px;
-  bottom: 100px;
 }
 
 .congratulations-image {
@@ -75,4 +72,5 @@ body {
   border-radius: 20px;
   width: 30px;
   height: 30px;
+  margin: 0 2px;
 }

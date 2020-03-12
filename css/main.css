@@ -55,10 +55,8 @@ body {
 
 .sobre {
   position: relative;
-  float: right;
   width: 50%;
-  height: 60%;
-  margin-top: 6%;
+  margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -172,4 +170,60 @@ input[type=submit] {
   width: 100%;
   z-index: 1;
   margin-top: -200px;
+}
+
+@media screen and (max-width: 900px) {
+ .principal {
+
+ }
+
+ header .layerTop {
+   display: none;
+ }
+
+ .main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 100px;
+ }
+ .main-content {
+  flex-direction: column;
+ }
+
+  div.corpo-form {
+    width: auto;
+    margin: 0;
+    text-align: center;
+    z-index: 999;
+  }
+
+  input {
+    width: 75%;
+  }
+
+  small {
+    margin: 0;
+  }
+
+  .image-content {
+    display: none;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .img-baixo {
+    width: 100%;
+  }
+
+  .sobre {
+    width: auto;
+    padding: 0 25px;
+  }
+
+  .layerBaixo {
+    display: none;
+  }
 }
